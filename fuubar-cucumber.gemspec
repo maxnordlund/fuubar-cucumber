@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name          = "fuubar-cucumber"
-  s.version       = '0.0.22'
+  s.version       = '0.0.23'
   s.platform      = Gem::Platform::RUBY
   s.authors       = ["Marcin Ciunelis", "Vasiliy Ermolovich"]
   s.email         = ["marcin.ciunelis@gmail.com", "younash@gmail.com"]
@@ -14,6 +14,6 @@ Gem::Specification.new do |s|
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
 
-  s.add_dependency 'cucumber', ["~> 1.3.0"]
-  s.add_dependency 'ruby-progressbar', ["~> 1.2"]
+  s.add_dependency 'cucumber', ["~> 2.4"]
+  s.add_dependency 'ruby-progressbar', ["~> 1.8"]
 end
